@@ -1,0 +1,36 @@
+body {
+    line-height: 2;
+    background: #f0f5fa;
+    color: #000000;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 2.5 em;
+    font-weight: bold;
+    color: #000000;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2.5 em;
+    font-weight: bold;
+    color: #000000;
+    margin-top: 1.5em;
+}
+
+strong {
+    color: #f06292;
+    font-size: 1.2em;
+}
+
+p, ul {
+    font-size: 1.2em;
+}
+
+a {
+    color: #000000;
+    font-weight: bold;
+    font-size: 1.2em;
+    text-decoration: none;
+}
