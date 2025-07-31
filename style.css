@@ -1,8 +1,10 @@
 body {
-    line-height: 2;
+    line-height: 1.8; /* slightly reduced for tighter spacing */
     background: #f0f5fa;
     color: #000000;
     font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 h1 {
@@ -10,13 +12,16 @@ h1 {
     font-weight: bold;
     color: #000000;
     text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
 }
 
 h2 {
-    font-size: 2.5em;
+    font-size: 2em;
     font-weight: bold;
     color: #000000;
-    margin-top: 1.5em;
+    margin-top: 30px;
+    margin-bottom: 10px; /* reduced spacing between heading and content */
 }
 
 strong {
@@ -26,6 +31,8 @@ strong {
 
 p, ul {
     font-size: 1.2em;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 a {
@@ -36,6 +43,29 @@ a {
 }
 
 ul {
-    list-style-type: disc; /* Ensures bullets show */
-    padding-left: 20px;
+    list-style-type: disc;
+    padding-left: 40px;
+    margin-top: 0px; /* fixes spacing above project bullets */
+    margin-bottom: 30px;
+}
+
+li {
+    margin-bottom: 30px; /* adds consistent spacing between projects */
+}
+
+.button {
+    display: inline-block;
+    margin-top: 30px;
+    font-size: 1.2em;
+}
+
+h2 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+ul {
+    margin-top: 0px;
+}
+li {
+    margin-bottom: 30px;
 }
